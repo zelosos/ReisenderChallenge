@@ -40,6 +40,7 @@ Eure abgegebene Lösung wird mit einem Score bewertet.
 Der Score setzt sich aus zwei Faktoren zusammen:
 1. Wie gut ist euer gefundener Weg gegenüber einem zufällig Gewählten?
 2. Wie viel Zeit von eurer Rechenzeit ist übrig.
+
 Generell gilt:
 1. Ein besserer Pfad wird besser bewertet, als wenig Rechenzeit verbraucht.
 2. Je mehr Städte eine Route beinhaltet, desto mehr Punkte können erreicht werden.
