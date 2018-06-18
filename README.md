@@ -43,6 +43,7 @@ Der Score setzt sich aus zwei Faktoren zusammen:
 Generell gilt:
 1. Ein besserer Pfad wird besser bewertet, als wenig Rechenzeit verbraucht.
 2. Je mehr Städte eine Route beinhaltet, desto mehr Punkte können erreicht werden.
+
 Die genaue Formel findet ihr im Source Code.
 Sollte nicht jede Stadt besucht, keine zusammenhängende Route gefunden oder eure Rechenzeit
 überschritten sein, so wird diese Route mit 0 bewertet.
