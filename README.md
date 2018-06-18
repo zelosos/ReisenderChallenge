@@ -55,3 +55,21 @@ Lösungen können bis zum 30.09.2018 23:59:59.9999 abgegeben werden.
 
 # Der Gewinn:
 Sobald ein Preis feststeht, wird er hier ergänzt. Sponsoren sind gern gesehen. :)
+
+# Regeln
+0. Bestehende Funktionen dürfen nicht verändert werden.
+1. Ausnahme von Regel 1 ist die Funktion berechneRoute() der Klasse Reisender.
+2. Funktionen und Klassen dürfen nach belieben hinzugefügt werden.
+3. Die Abgabe erfolgt ausschließlich als Branche über github. Bitte erzeugt auch gleich eine jar-Datei.
+4. Strengt euch selber an. Eine Kopie einer bestehenden Lösung als Abgabe führt zwangsläufig zur Disqualifikation.
+
+# Tipps
+0. Nutzt die euch zur Verfügung gestellte Zeit. Eine bessere Lösung erhöht den Score wesentlich stärker, als verbleibende freie Zeit.
+1. Die Testmaschine besitzt mehrer Prozessorkerne. Nutzt die Rechenleistung.
+2. Optimiert wo es geht. Vielleicht genügt eine grobe Aproximation von sehr komplexen und häufig aufgerufenden Berechnungen. Oft hilft es auch häufig berechnete Ergebnise zu speichern.
+3. Variiert den Startpunkt. Die Route muss nicht bei der ersten Stadt beginnen. Vielleicht ist eine andere Stadt als Startpunkt besser.
+4. Nutzt bereits existierendes Wissen. Wenn ihr nach Verbessungen für eure Berechnung sucht findet ihr in der Literatur sicherlich Hilfe oder Algorithmen.
+5. Kommentiert schwer zu verstehende Source-Code-Passagen. Es hilft euch später.
+6. Berechnet mit weniger Städten die optimale Lösung und schaut, wie weit eure Lösung von dieser entfernt ist.
+7. Schaut euch die graphische Ausgabe eurer Route an. Wo stellt ihr Verbesserungsmöglichkeiten fest?
+8. Experimentiert. Neue Ideen kommen schnell zusammen. Probiert sie aus, passt sie an,optimiert sie, aber ärgert euch nicht, falls ihr gescheiterte Experiemente verwerft.Das gewonnene Wissen bringt euch immer weiter an Ziel.
