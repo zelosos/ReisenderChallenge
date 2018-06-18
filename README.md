@@ -8,14 +8,14 @@ ein gutes, bzw sehr gutes Ergebnis erzielen.
 
 # Das Problem:
 Stellt euch vor ihr wollt 10 Städte bereisen. In welcher Reihenfolge ihr
-die Städte besucht ist euch egal. Hauptsache ist, ihr wart in jeder Stadt ein
+die Städte besucht ist euch egal; Hauptsache ihr wart in jeder Stadt ein
 mal.
 Um Sprittgeld zu sparen wollt ihr die kürzeste Strecke fahren und doch
 alle Städte besuchen. Welche Route müsst ihr dafür nehmen?
 
 Die Städte werden im Programm durch zufällige Punkte repräsentiert.
-Die Route ersellt man durch einzelne Linien zwischen diesen Punkten.
-Innerhalb der Funktion berechneRoute() wird die Route berechnet.
+Die Route verfasst man durch einzelne Linien zwischen diesen Punkten.
+Innerhalb der Funktion berechneRoute() wird die Route aufgestellt.
 Dort sollt ihr eure Lösung erstellen.
 
 # Der Ablauf:
