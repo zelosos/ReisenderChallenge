@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import javafx.scene.canvas.GraphicsContext;
 
 public class Reisender {
-	LinkedList<Linie> route;
-	LinkedList<Punkt> stadte;
+	private LinkedList<Linie> route;
+	private LinkedList<Punkt> stadte;
 
 	public Reisender(LinkedList<Punkt> stadte)
 	{
