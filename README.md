@@ -63,7 +63,7 @@ Sobald ein Preis feststeht, wird er hier ergänzt. Sponsoren sind gern gesehen. 
 0. Bestehende Funktionen dürfen nicht verändert werden.
 1. Ausnahme von Regel 1 ist die Funktion berechneRoute() der Klasse Reisender.
 2. Funktionen und Klassen dürfen nach Belieben hinzugefügt werden.
-3. Die Abgabe erfolgt ausschließlich als Branche über github. Bitte erzeugt auch gleich eine jar-Datei.
+3. Die Abgabe erfolgt ausschließlich als Fork über github. Bitte erzeugt auch gleich eine jar-Datei.
 4. Strengt euch selber an. Eine Kopie einer bestehenden Lösung als Abgabe führt zwangsläufig zur Disqualifikation.
 
 # Tipps

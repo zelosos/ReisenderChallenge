@@ -1,29 +1,10 @@
-0. Nutzt die euch zur Verfügung gestellte Zeit.
-Eine bessere Lösung erhöht den Score wesentlich stärker, als verbleibende freie Zeit.
-
-1. Die Testmaschine besitzt mehrer Prozessorkerne. Nutzt die Rechenleistung.
-
-2. Optimiert wo es geht.
-Vielleicht genügt eine grobe Aproximation von sehr komplexen und
-häufig aufgerufenden Berechnungen. Oft hilft es auch häufig berechnete
-Ergebnise zu speichern.
-
-3. Variiert den Startpunkt.
-Die Route muss nicht bei der ersten Stadt beginnen. Vielleicht ist eine andere
-Stadt als Startpunkt besser.
-
-4. Nutzt bereits existierendes Wissen.
-Wenn ihr nach Verbessungen für eure Berechnung sucht findet ihr in der Literatur sicherlich
-Hilfe oder Algorithmen.
-
+# Tipps
+0. Nutzt die euch zur Verfügung gestellte Zeit. Eine bessere Lösung erhöht den Score wesentlich stärker, als verbleibende freie Zeit.
+1. Die Testmaschine besitzt mehrere Prozessorkerne. Nutzt die Rechenleistung.
+2. Optimiert wo es geht. Vielleicht genügt eine grobe Approximation von sehr komplexen und häufig aufgerufenen Berechnungen. Oft hilft es auch häufig berechnete Ergebnisse zu speichern.
+3. Variiert den Startpunkt. Die Route muss nicht bei der ersten Stadt beginnen. Vielleicht ist eine andere Stadt als Startpunkt besser.
+4. Nutzt bereits existierendes Wissen. Wenn ihr nach Verbesserungen für eure Berechnung sucht findet ihr in der Literatur sicherlich Hilfe oder Algorithmen.
 5. Kommentiert schwer zu verstehende Source-Code-Passagen. Es hilft euch später.
-
-6. Berechnet mit weniger Städten die optimale Lösung und schaut, wie weit eure Lösung von
-dieser entfernt ist.
-
+6. Berechnet mit weniger Städten die optimale Lösung und schaut, wie weit eure Lösung von dieser entfernt ist.
 7. Schaut euch die graphische Ausgabe eurer Route an. Wo stellt ihr Verbesserungsmöglichkeiten fest?
-
-8. Experimentiert.
-Neue Ideen kommen schnell zusammen. Probiert sie aus, passt sie an,optimiert sie,
-aber ärgert euch nicht, falls ihr gescheiterte Experiemente verwerft.Das gewonnene
-Wissen bringt euch immer weiter an Ziel.
+8. Experimentiert. Neue Ideen kommen schnell zusammen. Probiert sie aus, passt sie an, optimiert sie, aber ärgert euch nicht, falls ihr gescheiterte Experimente verwerft. Das gewonnene Wissen bringt euch immer weiter an Ziel.
