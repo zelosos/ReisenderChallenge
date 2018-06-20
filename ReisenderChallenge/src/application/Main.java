@@ -87,7 +87,6 @@ public class Main extends Application {
             Scene scene = new Scene(root, breite, hohe);
             stage.setScene(scene);
             
-            scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			Canvas zeichenbrett = new Canvas(breite,hohe);
 			GraphicsContext graphischeElemente = zeichenbrett.getGraphicsContext2D();
 			root.getChildren().add(zeichenbrett);
@@ -152,13 +151,13 @@ public class Main extends Application {
 			return null;
 		LinkedList<Punkt>[] stadte = new LinkedList[testAnzahl];
 		for (int i=0; i<testAnzahl*0.6; i++)
-			stadte[i] = generierePunkte(seeds[i], 100);
+			stadte[i] = generierePunkte(seeds[i], 10);
 		for (int i=testAnzahl*6/10; i<testAnzahl*0.9; i++)
 			//stadte[i] = generierePunkte(seeds[i], 100);
-			stadte[i] = generierePunkte(seeds[i], 1000);
+			stadte[i] = generierePunkte(seeds[i], 20);
 		for (int i=testAnzahl*9/10; i<testAnzahl; i++)
 			//stadte[i] = generierePunkte(seeds[i], 100);
-			stadte[i] = generierePunkte(seeds[i], 3000);
+			stadte[i] = generierePunkte(seeds[i], 60);
 		return stadte;
 	}
 	

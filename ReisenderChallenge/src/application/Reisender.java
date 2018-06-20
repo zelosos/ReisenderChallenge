@@ -31,7 +31,7 @@ public class Reisender {
 	// nur zur Hilfe :)
 	private long verbleibendeZeit(long startZeit)
 	{
-		double zeitMultiplier = 1/22.0;
+		double zeitMultiplier = 1.875;
 		long vorhandeneZeit = (long)(zeitMultiplier*stadte.size()*1000)/1;
 		//System.out.println(vorhandeneZeit);
 		long verbrauchteZeit = System.currentTimeMillis() - startZeit;
@@ -48,7 +48,7 @@ public class Reisender {
 		if (berechnungszeitInSek == 0)
 			berechnungszeitInSek += 0.001;
 
-		double zeitMultiplier = 1/22.0;
+		double zeitMultiplier = 1.875;
 		double vorhandeneZeitInSekunden = zeitMultiplier*stadte.size();
 		double verbleibendeSekunden = vorhandeneZeitInSekunden - berechnungszeitInSek;
 

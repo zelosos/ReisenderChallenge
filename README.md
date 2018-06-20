@@ -1,3 +1,4 @@
+#!!! Die Challenge hat noch nicht begonnen. Ich passe noch die Werte an, für einen spannenden Wettbewerb. !!!
 # ReisenderChallenge
 
 Das "traveler salesman problem" (Handelsreisender Problem) gehört in die Gruppe der
@@ -22,14 +23,14 @@ Damit der Vergleich zwischen den einzelnen Teilnehmern vergleichbar bleibt,
 werden Zufallszahlen mit einem Seed erzeugt.
 Damit werden 10 unterschiedliche Städtekonstellationen erzeugt.
 Diese sind wie folgt aufgeteilt:
-- 6x hundert Städte
-- 3x tausend Städte
-- 1x dreitausend Städte
+- 6x zehn Städte
+- 3x zwanzig Städte
+- 1x sechzig Städte
 
 Für die Berechnung der Route existiert ein Zeitlimit. Dieses wird wie folgt
 berechnet:
 
-Zeitlimit = Städteanzahl/22 Sekunden
+Zeitlimit = Städteanzahl*1,875 Sekunden
 
 Das Berechnen aller Routen darf somit maximal 5 Minuten dauern. 
 Beim Überschreiten des Zeitlimits wird das Ergebnis nicht gezählt.
