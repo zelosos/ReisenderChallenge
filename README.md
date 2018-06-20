@@ -1,4 +1,4 @@
-#!!! Die Challenge hat noch nicht begonnen. Ich passe noch die Werte an, für einen spannenden Wettbewerb. !!!
+# !!! Die Challenge hat noch nicht begonnen. Ich passe noch die Werte an, für einen spannenden Wettbewerb. !!!
 # ReisenderChallenge
 
 Das "traveler salesman problem" (Handelsreisender Problem) gehört in die Gruppe der
