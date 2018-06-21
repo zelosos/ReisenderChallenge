@@ -31,9 +31,8 @@ public class Reisender {
 	// nur zur Hilfe :)
 	private long verbleibendeZeit(long startZeit)
 	{
-		double zeitMultiplier = 1.875;
-		long vorhandeneZeit = (long)(zeitMultiplier*stadte.size()*1000)/1;
-		//System.out.println(vorhandeneZeit);
+		double zeitMultiplier = 6/1000.0;
+		long vorhandeneZeit = (long)(zeitMultiplier*stadte.size()*stadte.size()*1000)/1;
 		long verbrauchteZeit = System.currentTimeMillis() - startZeit;
 		return vorhandeneZeit - verbrauchteZeit;
 	}
@@ -48,8 +47,8 @@ public class Reisender {
 		if (berechnungszeitInSek == 0)
 			berechnungszeitInSek += 0.001;
 
-		double zeitMultiplier = 1.875;
-		double vorhandeneZeitInSekunden = zeitMultiplier*stadte.size();
+		double zeitMultiplier = 6/1000.0;
+		double vorhandeneZeitInSekunden = zeitMultiplier*stadteAnzahl*stadteAnzahl;
 		double verbleibendeSekunden = vorhandeneZeitInSekunden - berechnungszeitInSek;
 
 		String fehler = "";
@@ -59,7 +58,7 @@ public class Reisender {
 			fehler += "Nicht alle Städte bereist! ";
 		if (!routeIstZusammenhangend())
 			fehler += "Route ist nicht zusammenhängend! ";
-		if (verbleibendeSekunden < 0) // maximale Rechendauer ist 1 min pro stadt
+		if (verbleibendeSekunden < 0)
 			fehler += "Zeitlimit überschritten! ";;
 			if (fehler != "")
 			{
@@ -69,7 +68,7 @@ public class Reisender {
 			}
 
 			double avgDistance = 0.521405433*seitenLange;
-			double score = ((avgDistance + verbleibendeSekunden)*(stadte.size()-1)) /langeDerRoute();
+			double score = ((avgDistance + verbleibendeSekunden)*(stadteAnzahl-1)) /langeDerRoute();
 			printInfo(verbleibendeSekunden, score);
 			return score;
 	}

@@ -40,9 +40,9 @@ public class Main extends Application {
 			System.out.print("Erstelle Seeds ... ");
 			long[] seeds = seedGenerator(startSeed, 10);
 			/* tests mit:
-			 * 100 Städte (6 tests)
-			 * 1000 Städte (3 test)
-			 * 3000 Städte (1 test)
+			 * 16 Städte (6 tests)
+			 * 40 Städte (3 test)
+			 * 209 Städte (1 test)
 			 */
 			System.out.println("fertig.");
 			System.out.print("Erstelle Städte ... ");
@@ -110,8 +110,6 @@ public class Main extends Application {
 	
 	public static void main(String[] args)
 	{		
-//		Challenge challenge = new Challenge(700, 700);
-//		challenge.start();
 		launch(args);
 	}
 	
@@ -151,13 +149,11 @@ public class Main extends Application {
 			return null;
 		LinkedList<Punkt>[] stadte = new LinkedList[testAnzahl];
 		for (int i=0; i<testAnzahl*0.6; i++)
-			stadte[i] = generierePunkte(seeds[i], 10);
+			stadte[i] = generierePunkte(seeds[i], 16);
 		for (int i=testAnzahl*6/10; i<testAnzahl*0.9; i++)
-			//stadte[i] = generierePunkte(seeds[i], 100);
-			stadte[i] = generierePunkte(seeds[i], 20);
+			stadte[i] = generierePunkte(seeds[i], 40);
 		for (int i=testAnzahl*9/10; i<testAnzahl; i++)
-			//stadte[i] = generierePunkte(seeds[i], 100);
-			stadte[i] = generierePunkte(seeds[i], 60);
+			stadte[i] = generierePunkte(seeds[i], 209);
 		return stadte;
 	}
 	
