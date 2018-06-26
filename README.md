@@ -58,7 +58,13 @@ Der Score aller 10 Routen wird aufsummiert und bildet euren Endscore.
 Lösungen können bis zum 30.09.2018 23:59:59.9999 abgegeben werden.
 
 # Der Gewinn:
-Sobald ein Preis feststeht, wird er hier ergänzt. Sponsoren sind gern gesehen. :)
+1. Platz: Raspberry Pi Kit
+2. Platz: USB Stick 32GB
+3. Platz: USB Stick 8GB
+und für Teilnehmer, die besser sind als der Zufall einen Sticker dieser Challenge.
+
+Preise können nur an Studenten der HSMW vergeben werden.
+Vielen Dank an die StuRa der HSMW für das Sponsoring der Preise.
 
 # Regeln
 0. Bestehende Funktionen dürfen nicht verändert werden.
