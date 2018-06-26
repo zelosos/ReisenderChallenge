@@ -61,9 +61,11 @@ Lösungen können bis zum 30.09.2018 23:59:59.9999 abgegeben werden.
 1. Platz: Raspberry Pi Kit
 2. Platz: USB Stick 32GB
 3. Platz: USB Stick 8GB
+
 und für Teilnehmer, die besser sind als der Zufall einen Sticker dieser Challenge.
 
 Preise können nur an Studenten der HSMW vergeben werden.
+
 Vielen Dank an die StuRa der HSMW für das Sponsoring der Preise.
 
 # Regeln
