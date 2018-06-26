@@ -25,7 +25,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {		
 		try {
-			primaryStage.setTitle("Traveler Challenge");
+			primaryStage.setTitle("Gesamtscore ReisenderChallenge");
 			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
 			Scene scene = new Scene(root,breite,hohe);
 			Canvas zeichenbrett = new Canvas(breite,hohe);
