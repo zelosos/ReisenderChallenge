@@ -1,4 +1,3 @@
-# Die Challenge hat begonnen!
 # ReisenderChallenge
 
 Das "traveler salesman problem" (Handelsreisender Problem) gehört in die Gruppe der
