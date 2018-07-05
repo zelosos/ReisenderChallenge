@@ -14,7 +14,7 @@ alle Städte besuchen. Welche Route müsst ihr dafür nehmen?
 
 Die Städte werden im Programm durch zufällige Punkte repräsentiert.
 Die Route verfasst man durch einzelne Linien zwischen diesen Punkten.
-Innerhalb der Funktion berechneRoute() wird die Route aufgestellt.
+In der Klasse Reisender innerhalb der Funktion berechneRoute() wird die Route aufgestellt.
 Dort sollt ihr eure Lösung erstellen.
 
 # Der Ablauf:
@@ -29,7 +29,7 @@ Diese sind wie folgt aufgeteilt:
 Für die Berechnung der Route existiert ein Zeitlimit. Dieses wird wie folgt
 berechnet:
 
-Zeitlimit = Städteanzahl*Städteanzahl*6 Sekunden
+Zeitlimit = Städteanzahl * Städteanzahl * 6 Sekunden
 
 Das Berechnen aller Routen darf somit maximal 5 Minuten dauern. 
 Beim Überschreiten des Zeitlimits wird das Ergebnis nicht gezählt.
