@@ -29,7 +29,7 @@ Diese sind wie folgt aufgeteilt:
 Für die Berechnung der Route existiert ein Zeitlimit. Dieses wird wie folgt
 berechnet:
 
-Zeitlimit = Städteanzahl * Städteanzahl * 6 Sekunden
+Zeitlimit = Städteanzahl * Städteanzahl * 6 Millisekunden
 
 Das Berechnen aller Routen darf somit maximal 5 Minuten dauern. 
 Beim Überschreiten des Zeitlimits wird das Ergebnis nicht gezählt.
