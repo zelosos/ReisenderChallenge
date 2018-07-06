@@ -35,17 +35,17 @@ public class Main extends Application {
 			primaryStage.setResizable(false);
 			primaryStage.show();
 
-			// alles N√∂tige generieren
+			// alles Nˆtige generieren
 			int startSeed = 90;
 			System.out.print("Erstelle Seeds ... ");
 			long[] seeds = seedGenerator(startSeed, 10);
 			/* tests mit:
-			 * 16 St√§dte (6 tests)
-			 * 40 St√§dte (3 test)
-			 * 209 St√§dte (1 test)
+			 * 16 St‰te (6 tests)
+			 * 40 St‰dte (3 test)
+			 * 209 St‰dte (1 test)
 			 */
 			System.out.println("fertig.");
-			System.out.print("Erstelle St√§dte ... ");
+			System.out.print("Erstelle St‰dte ... ");
 			LinkedList<Punkt>[] stadte = generiereStadte(seeds, 10);
 			Reisender[] reisende = generieReisende(stadte);
 			reisende[reisende.length-1].zeichneStadte(graphischeElemente);

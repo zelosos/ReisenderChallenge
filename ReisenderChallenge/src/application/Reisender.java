@@ -53,13 +53,13 @@ public class Reisender {
 
 		String fehler = "";
 		if (stadteAnzahl != stadte.size())
-			fehler += "St√§dteanzahl hat sich ver√§ndert! ";
+			fehler += "St‰dteanzahl hat sich ver‰ndert! ";
 		if (!alleStadteBereist())
-			fehler += "Nicht alle St√§dte bereist! ";
+			fehler += "Nicht alle St‰dte bereist! ";
 		if (!routeIstZusammenhangend())
-			fehler += "Route ist nicht zusammenh√§ngend! ";
+			fehler += "Route ist nicht zusammenh‰ngend! ";
 		if (verbleibendeSekunden < 0)
-			fehler += "Zeitlimit √ºberschritten! ";;
+			fehler += "Zeitlimit ‹berschritten! ";;
 			if (fehler != "")
 			{
 				System.out.println(fehler);
@@ -75,8 +75,8 @@ public class Reisender {
 
 	private void printInfo(double verbleibendeSekunden, double score)
 	{
-		System.out.println("St√§dteanzahl: " + (stadte.size()));
-		System.out.println("Routenl√§nge: " + langeDerRoute());
+		System.out.println("St‰dteanzahl: " + (stadte.size()));
+		System.out.println("Routenl‰nge: " + langeDerRoute());
 		System.out.println("verbleibende Senkunden: " + verbleibendeSekunden);
 		System.out.println("Score: " + score);
 		System.out.println();
