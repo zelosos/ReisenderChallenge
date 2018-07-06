@@ -68,7 +68,7 @@ public class Reisender {
 			}
 
 			double avgDistance = 0.521405433*seitenLange;
-			double score = ((avgDistance + verbleibendeSekunden)*(stadteAnzahl-1)) /langeDerRoute();
+			double score = (avgDistance * (stadteAnzahl-1) + verbleibendeSekunden) /langeDerRoute();
 			printInfo(verbleibendeSekunden, score);
 			return score;
 	}
