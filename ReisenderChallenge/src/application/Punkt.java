@@ -69,4 +69,13 @@ public class Punkt {
 		gc.setFill(Color.GRAY);
 		gc.fillOval(x-durchmesser/2, y-durchmesser/2, durchmesser, durchmesser);		
 	}
+
+	@Override
+	public int hashCode() {
+		int hash = 1;
+		hash = hash * 17 + x;
+		hash = hash * 23 + y;
+		hash = hash * 31 + (flag ? 13 : 7);
+		return hash;
+	}
 }
