@@ -3,7 +3,7 @@ package application;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
-public class Linie {
+public class Linie implements Comparable<Linie> {
 	private Punkt start;
 	private Punkt ende;
 	
@@ -61,5 +61,18 @@ public class Linie {
 		gc.setLineWidth(1);
 		gc.setStroke(Color.RED);
 		gc.strokeLine(start.getX(), start.getY(), ende.getX(), ende.getY());	
+	}
+
+	@Override
+	public int compareTo(Linie o) {
+		if (o != null) {
+			return (int) (lange() - o.lange());
+		} else {
+			throw new NullPointerException("Can't compare to 'null'");
+		}
+	}
+
+	public Linie umdrehen() {
+		return new Linie(ende, start);
 	}
 }
