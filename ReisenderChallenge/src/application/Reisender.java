@@ -46,6 +46,7 @@ public class Reisender {
 			d = lange(alleGreedyRouten[i]);
 			if (d<besteLange)
 			{
+				besteReihenfolge = alleGreedyRouten[i];
 				besteLange = d;
 				besterIndex = i;
 			}
@@ -56,43 +57,36 @@ public class Reisender {
 		for (int i=0; i<alleGreedyRouten.length; i++)
 			optimierer[i] = new optimiereRoute(deadline, alleGreedyRouten[i], entfernungMatrix);
 		int derzeitigerIndex = 0;
-		boolean fertig = false;
 		
-		while (System.currentTimeMillis()+zeitFurEineSchleife < deadline && !fertig)
-		{// optimierer laufen lassen, solange Zeit verbleibt
-			long start = System.currentTimeMillis();
-			ArrayList<Integer> laufendeOptimierer = new ArrayList<Integer>();
-			for (int i=0; i<optimierer.length; i++)
+		// optimierer laufen lassen, solange Zeit verbleibt
+		long start = System.currentTimeMillis();
+		ArrayList<Integer> laufendeOptimierer = new ArrayList<Integer>();
+		for (int i=0; i<optimierer.length; i++)
+		{
+			if (derzeitigerIndex<alleGreedyRouten.length)
 			{
-				if (derzeitigerIndex<alleGreedyRouten.length)
-				{
-					optimierer[derzeitigerIndex].run();
-					laufendeOptimierer.add(derzeitigerIndex);
-					derzeitigerIndex++;
-				}
+				optimierer[derzeitigerIndex].run();
+				laufendeOptimierer.add(derzeitigerIndex);
+				derzeitigerIndex++;
 			}
-			for (int opt: laufendeOptimierer)
+		}
+		for (int opt: laufendeOptimierer)
+		{
+			try
 			{
-				try
-				{
-					optimierer[opt].join();
-				}
-				catch (InterruptedException e)
-				{
-					e.printStackTrace();
-				}
-				d = lange(optimierer[opt].getReihenfolge());
-				if (d < besteLange) // wenn besser, dann merken
-				{
-					besteLange = d;
-					besterIndex = opt;
-					besteReihenfolge = optimierer[opt].getReihenfolge();
-				}
-				if (opt == optimierer.length-1)
-					fertig = true;
+				optimierer[opt].join();
 			}
-			
-			zeitFurEineSchleife = (System.currentTimeMillis()-start + zeitFurEineSchleife)/2;
+			catch (InterruptedException e)
+			{
+				e.printStackTrace();
+			}
+			d = lange(optimierer[opt].getReihenfolge());
+			if (d < besteLange) // wenn besser, dann merken
+			{
+				besteLange = d;
+				besterIndex = opt;
+				besteReihenfolge = optimierer[opt].getReihenfolge();
+			}
 		}
 		return konvertiereZuList(besteReihenfolge);
 	}
