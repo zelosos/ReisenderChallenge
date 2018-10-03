@@ -7,7 +7,7 @@ Platz 4: Syndesi (14,9068 Punkte)
 !!! Bitte konntaktiert mich per Mail, damit wir einen Termin für die Preisüberreichung vereinbaren können. !!!
 Die Mail-Addresse entnehmt ihr der Infomail vom 05.07.2018.
 
-Die genauen Werte könnt ihr der [`PDF`](/Auswertung.pdf) entnehmen. Ihr findet dort genaue Angaben über die einzelnen Runden:
+Die genauen Werte könnt ihr der [`Auswertung.pdf`](/Auswertung.pdf) entnehmen. Ihr findet dort genaue Angaben über die einzelnen Runden:
 - genutzter Seed,
 - Gesammtscore,
 - verbleibende Zeit des 209-Städtetest und
