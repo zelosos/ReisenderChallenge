@@ -1,8 +1,8 @@
 # Die Siegerehrung:
-Platz 1: meilz381 (39,226 Punkte)
-Platz 2: zelosos (39,2062 Punkte)
-Platz 3: klux2 (38,8042 Punkte)
-Platz 4: Syndesi (14,9068 Punkte)
+- Platz 1: meilz381 (39,226 Punkte)
+- Platz 2: zelosos (39,2062 Punkte)
+- Platz 3: klux2 (38,8042 Punkte)
+- Platz 4: Syndesi (14,9068 Punkte)
 
 !!! Bitte konntaktiert mich per Mail, damit wir einen Termin für die Preisüberreichung vereinbaren können. !!!
 Die Mail-Addresse entnehmt ihr der Infomail vom 05.07.2018.
